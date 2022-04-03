@@ -98,7 +98,7 @@ We’ll assume that the first byte of this data tells us what instruction to run
 
 let (instruction_byte, all_other_bytes) = data.split_first().unwrap();
 
-if *i nstruction_byte == 0{
+if *instruction_byte == 0{
 
   // create campaign
 
